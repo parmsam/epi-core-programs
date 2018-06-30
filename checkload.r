@@ -1,6 +1,7 @@
 #mini-program called checkload 
-#purpose: to install package if the package cannot be loaded
-#my current way of checking to see if need install then installing and loading necessary packages  
+#input: list of packages that will be used in main R program
+#purpose: create a function to install package if the package cannot be loaded and load all relevant packages
+#significance: my current way of checking to see if need package install, installing new ones, and loading all necessary packages  
 #creation date: 06/29/2018
 #update: 
 checkload<-function(packages){
