@@ -1,6 +1,6 @@
 #mini-program called checkload 
-#to check installed packages, install/loading necessary programs  
-#my easy way right now of checking to see if need install and loading necessary packages:
+#to install package if the package cannot be loaded
+#my current way of checking to see if need install and then loading necessary packages
 #may improve :)
 checkload<-function(packages){
   for (i in packages){
