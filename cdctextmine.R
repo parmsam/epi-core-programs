@@ -12,7 +12,6 @@
 #  3) Save state or county data as a csv
 #  4) Filter by State name and County name
 #  5) Plot graph for County and/or State Prescription Rate Trends
-#  X) Clean up. 
 
 #  1) Relevant Packages load
 
