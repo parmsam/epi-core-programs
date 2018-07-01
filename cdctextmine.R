@@ -21,7 +21,7 @@ lapply(packages,require, character.only = TRUE)
 
 #What State? Use full state name (example="Indiana")
 StateName="Indiana"
-#What county? Format as county comma then State 2 letter abbreviation here (example="Marion, IN")
+#What county? Format as county comma then State 2 letter abbreviation here (example="Hamilton, IN")
 CountyName="Hamilton, IN"
 #Would you like to output a plot for the selected county(ChooseOut='county') or for the selected state(ChooseOut='state')?
 ChooseOut='state'
