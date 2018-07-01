@@ -36,6 +36,7 @@ destPath<-paste(filePath, ChooseOut, '_OpioidRxData.csv', sep='')
 # 2) Read and parse HTML file
 
 #from: http://bradleyboehmke.github.io/2015/12/scraping-html-tables.html
+# two examples of method working to obtain 2016 county or state rate data
 # webpage1 <- read_html("https://www.cdc.gov/drugoverdose/maps/rxcounty2016.html")
 # tbls_ls1 <- webpage %>%
 #   html_nodes("table") %>%
