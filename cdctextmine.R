@@ -2,7 +2,7 @@
 # More information on CDC posted opioid rx rates data: https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html
 # There is information user can specify at the start of the script to get what he or she wants (state or county level data and plots for what state or county of interest).
 # Created on 2018-03-09
-# Purpose: Text mining on CDC pages to pull opioid prescription rates data for past few years 2009-2016 for county and state levels
+# Purpose: Text mining on CDC pages to pull opioid prescription rates data for past few years 2006-2016 for county and state levels
 # Significance: Obtain state or county level data on opioid prescription rates data for further analysis
 # Limitations and Warnings: the all county dataset lapply runtime is one to two minutes to pull the relevant data
 
