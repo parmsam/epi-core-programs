@@ -1,4 +1,4 @@
-# This R program uses rvest package to pull CDC opioid rx data for state and counties then the R script saves the data
+# This R program uses rvest package to pull CDC opioid rx data for state and counties then saves the data
 # More information on CDC posted opioid rx rates data: https://www.cdc.gov/drugoverdose/maps/rxrate-maps.html
 # There is information user can specify at the start of the script to get what he or she wants (state or county level data and plots for what state or county of interest).
 # Created on 2018-03-09
@@ -12,9 +12,8 @@
 #  3) Save state or county data as a csv
 #  4) Filter by State name and County name
 #  5) Plot graph for County and/or State Prescription Rate Trends
-#  X) Clean up. 
 
-#  1) Relevant Packages install/load
+#  1) Relevant Packages load
 
 packages<-c("rvest", "tidyverse","reshape2","stringr")
 lapply(packages,require, character.only = TRUE)
