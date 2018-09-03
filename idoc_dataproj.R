@@ -24,7 +24,7 @@ library(stringr)
 #  2) Pull all adult admission and release summary pdfs posted IDOC website:
 #commented all loops out after first time use and saved into wd inside folder called IDOC_Data
 
-#here is an an example of hoiw to downlkoad a file pdf file in R:
+#here is an an example of hoiw to download a file pdf file in R:
 #download.file("https://www.in.gov/idoc/files/Adult%20REL%20CY2017.pdf",destfile = "Adult%20REL%20CY2017.pdf",mode="wb")
 
 # #looping through all the posted adult release data
