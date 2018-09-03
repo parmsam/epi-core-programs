@@ -1,5 +1,5 @@
 # This R program uses pdftools, tidyverse, and stringer package to pull IDOC data on adult releases and admissions 
-# Posted Indiana Dept. of Corrections (IDOC) data here: https://www.in.gov/idoc/2376.htm
+# Posted IDOC data is here: https://www.in.gov/idoc/2376.htm
 
 # Created on 2018-08-09
 
