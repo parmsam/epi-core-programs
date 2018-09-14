@@ -2,5 +2,5 @@
 A journey using R to assess publicly available data
 
 Glossary:
--CDC Text Mining Project
--IDOC PDF Data Pull Project
+CDC Text Mining Project
+IDOC PDF Data Pull Project
