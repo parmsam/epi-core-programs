@@ -4,3 +4,4 @@
 ## Glossary:
 ### CDC Text Mining Project
 ### IDOC PDF Data Pull Project
+### Essay Text Analaysis Project
