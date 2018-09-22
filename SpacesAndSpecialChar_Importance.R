@@ -16,7 +16,7 @@ animal_weights<-data.frame(
 
 library(dplyr)
 
-#doing a match between the dataframes as is would make my match to the following:
+#doing a match between the dataframes as is would make my match the following:
 animals_data %>% group_by(Animal_name) %>% summarize(Count=sum(Sizes)) %>% left_join(animal_weights,by=c("Animal_name"))
 
 #this is vital to look at when working with large sql databases where data is manually entered
@@ -26,9 +26,12 @@ animals_data %>% group_by(Animal_name) %>% summarize(Count=sum(Sizes)) %>% left_
 
 #in order to correct for this particular problem we need to trim the variable before grouping:
 animals_data %>% mutate(Animal_name=trimws(Animal_name, which="both")) %>% group_by(Animal_name) %>% summarize(Count=sum(Sizes))
+#now lets do  the join again
 animals_data %>% mutate(Animal_name=trimws(Animal_name, which="both")) %>% 
   group_by(Animal_name) %>% summarize(Count=sum(Sizes)) %>% 
  left_join(animal_weights,by=c("Animal_name"))
+
+#now we get the match we want
 
 #this is relevant data quality area to explore during data linkages across databases
 
