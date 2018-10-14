@@ -5,3 +5,4 @@
 ### CDC Text Mining Project
 ### IDOC PDF Data Pull Project
 ### Essay Text Analysis Project
+### Examples on Importance of Account for Invisible Characters
