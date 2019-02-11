@@ -15,7 +15,7 @@
 #}
 
 #the following is a better way based on (https://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them):
-list <- c("tidyverse","gmodels","rio")
+#list <- c("tidyverse","gmodels","rio")
 checkload<-function(list.of.packages) {
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) {
