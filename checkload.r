@@ -4,7 +4,7 @@
 #significance: my current way of checking to see if need package install, installing new ones, and loading all necessary packages  
 #creation date: 06/29/2018
 
-#the following is based on (https://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them):
+#the following is based on https://stackoverflow.com/questions/4090169/elegant-way-to-check-for-missing-packages-and-install-them
 #list <- c("tidyverse","gmodels","rio")
 checkload<-function(list.of.packages) {
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
