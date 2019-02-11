@@ -23,4 +23,4 @@ if(length(new.packages)) {
 }
 lapply(list.of.packages, require, character.only = TRUE)
 }
-checkload(list)
+#checkload(list)
