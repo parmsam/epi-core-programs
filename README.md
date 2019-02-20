@@ -8,3 +8,4 @@
 ### Essay Text Analysis Project (writinganalysis.R)
 ### Examples on Accounting for Invisible Characters (SpacesAndSpecialChar_Importance.R)
 ### Calculate CIs DF Project (CalculateCIs.R)
+### Simple Count Masking Program for data frames (maskingProg.R)
