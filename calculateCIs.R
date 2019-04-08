@@ -41,9 +41,11 @@ CI_func <- function(dataset,
   dataset$test<-apply(dataset[,c('Count','Population_Ct')],1, function(x) exactci(x[1], x[2],Conf_Lev))
   
   dataset<-separate(dataset, test, into = c("lowCI", "highCI"), sep = ",")
-  
+                      
   dataset$lowCI<-gsub(".*c\\D", "", dataset$lowCI)
+  dataset$lowCI<-gsub("Population_Ct = ", "", dataset$lowCI)
   dataset$highCI<-gsub("))", "", dataset$highCI,fixed=TRUE)
+  dataset$highCI<-gsub("Population_Ct = ", "", dataset$highCI)
   
   dataset<- dataset %>% mutate(lowCI=Rate_Int*as.numeric(lowCI))%>% mutate(highCI=Rate_Int*as.numeric(highCI))
   
